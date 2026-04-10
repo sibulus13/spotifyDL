@@ -1,2 +1,25 @@
+# Credentials
 .env
+
+# Downloaded music (never commit 1.6GB of MP3s)
 downloads/
+
+# Exportify CSVs contain your Spotify user ID — keep them local
+*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
